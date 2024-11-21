@@ -1,0 +1,17 @@
+.my-purchases-section {
+    padding: 20px;
+  }
+  
+  .purchases-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .purchase-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

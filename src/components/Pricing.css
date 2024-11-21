@@ -1,0 +1,174 @@
+/* Page Background */
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #4382c9; /* Blue background */
+  }
+  
+  /* Heading Outside the Card */
+  .pricing-heading {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .pricing-heading h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-heading p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  /* White Card */
+  .pricing-card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    gap: 20px;
+  }
+ 
+  /* Left Section (Pricing) */
+  .pricing-left {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Price Tabs */
+  .price-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Reduce spacing between buttons */
+    margin-bottom: 20px;
+  }
+  
+  .price-tab {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: #4382c9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Button shadow */
+  }
+  
+  .price-tab.active {
+    background-color: #4382c9;
+    color: #fff;
+    transform: scale(1.05); /* Slight scale effect */
+  }
+  
+  .price-tab:hover {
+    background-color: #3366a3;
+    color: #fff;
+  }
+  
+  /* Pricing Details */
+  .pricing-details {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pricing-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Percentage Highlight */
+  .percentage-highlight {
+    font-size: 48px; /* Large font size */
+    font-weight: bold;
+    color: #4382c9; /* Blue color */
+    margin: 10px 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4382c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #3366a3;
+    transform: translateY(-2px);
+  }
+  
+  /* Right Section (Features) */
+  .pricing-right {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px; /* Space between features */
+  }
+  
+  .feature h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .pricing-card {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .price-tabs {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .price-tab {
+      padding: 8px 12px;
+    }
+  
+    .cta-button {
+      width: 100%;
+    }
+  
+    .pricing-right {
+      padding: 10px;
+    }
+  }
+ 

@@ -1,0 +1,63 @@
+.whatsapp-ai-communication {
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+    z-index: 1000; /* Ensure it is above other content */
+    transition: all 0.3s ease; /* Transition effect */
+  }
+  
+  .whatsapp-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .whatsapp-icon {
+    font-size: 50px; /* Icon size */
+    color: #25d366; /* WhatsApp green color */
+    transition: transform 0.3s; /* Transition for hover effect */
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  
+  .whatsapp-content {
+    background: #f9f9f9; /* Light background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    margin-top: 10px; /* Margin to separate from button */
+    width: 300px; /* Set a width for content */
+  }
+  
+  .whatsapp-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #25d366; /* WhatsApp green */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px; /* Spacing from content */
+    width: 100%; /* Full width for button */
+  }
+  
+  .whatsapp-button:hover {
+    background: #1ebea5; /* Darker green on hover */
+  }
+  
+  .close-button {
+    padding: 10px 15px;
+    background: #ff4c4c; /* Red for close button */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px; /* Spacing from content */
+    width: 100%; /* Full width for close button */
+  }
+  
+  .close-button:hover {
+    background: #d44040; /* Darker red on hover */
+  }
+  

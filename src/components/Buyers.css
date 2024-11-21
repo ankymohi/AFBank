@@ -1,0 +1,366 @@
+/* General Container */
+.buyers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #4382c9; /* Blue background */
+    color: #fff;
+  }
+  
+  /* Heading Section */
+  .buyers-heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .buyers-heading h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .buyers-heading p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  /* Cards Container */
+  .buyers-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+  }
+  
+  /* Individual Card */
+  .buyers-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 360px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .buyers-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Highlight for Premium Plan */
+  .premium-card {
+    transform: scale(1.1);
+    z-index: 10;
+    max-height: 450px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Badge for Popular Plan */
+  .popular-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4382c9;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Plan Title */
+  .plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4382c9;
+    margin: 10px 0;
+  }
+  
+  /* Plan Price */
+  .plan-price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  /* Plan Description */
+  .plan-description {
+    font-size: 16px;
+    color: #555;
+    margin: 15px 0;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4382c9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #3366a3;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .buyers-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .buyers-card {
+      max-width: 100%;
+      transform: scale(1);
+      max-height: 400px;
+    }
+  
+    .premium-card {
+      transform: scale(1);
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  .comparison-table-container {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .comparison-heading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .comparison-table {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    display: contents;
+    background-color: #4382c9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table-row {
+    display: contents;
+  }
+  
+  .feature-column {
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .plan-column {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .plan-column:not(:last-child) {
+    border-right: 1px solid #ddd;
+    color: black;
+  }
+  
+  .feature-column:first-child,
+  .plan-column:first-child {
+    background-color: #f9f9f9;
+  }
+  
+  .plan-column {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .cta-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    padding: 12px 25px;
+    background-color: #4382c9;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #3366a3;
+  }
+  
+  .premium-button {
+    background-color: #ffd700;
+    color: #333;
+  }
+  
+  .premium-button:hover {
+    background-color: #e6c200;
+  }
+  
+  .platinum-button {
+    background-color: #00c851;
+    color: #fff;
+  }
+  
+  .platinum-button:hover {
+    background-color: #009d3c;
+  }
+  
+  @media (max-width: 768px) {
+    .comparison-table {
+      grid-template-columns: 1fr;
+    }
+  
+    .table-header {
+      display: none;
+    }
+  
+    .table-row {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .feature-column,
+    .plan-column {
+      padding: 10px;
+      text-align: left;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+  .faq-container {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .faq-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .faq-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faq-question {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4382c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-toggle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .faq-answer {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+    display: block;
+  }
+  
+  .active .faq-question {
+    color: #0056a8;
+  }
+  
+  .active .faq-answer {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .faq-item {
+      padding: 15px 20px;
+    }
+  
+    .faq-question {
+      font-size: 14px;
+    }
+  
+    .faq-answer {
+      font-size: 13px;
+    }
+  }
+  

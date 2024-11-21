@@ -1,0 +1,138 @@
+
+.register-container {
+  display: flex;
+  min-height: 100vh;
+  background: url('../assets/sell-your-site.webp') no-repeat center center/cover;
+}
+
+.register-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -90px;
+}
+
+.register-form {
+  width: 30%;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+.register-form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f6a71f;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 20px 12px 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.input-fieldrole {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f6a71f;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.toggle-link {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+
+.toggle-link a {
+  color: white;
+}
+
+.register-promotion {
+  width: 70%;
+  background: url('../assets/bg-laptop.webp') no-repeat center center/cover;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+.promotion-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.promotion-content p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats strong {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.stats p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .register-content {
+    flex-direction: column;
+  }
+
+  .register-form,
+  .register-promotion {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
