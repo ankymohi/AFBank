@@ -58,7 +58,7 @@ const Buyers = () => {
           <div className="popular-badge">MAIS POPULAR</div>
           <h3>Para empreendedores de carreira</h3>
           <h2 className="plan-title">⭐ Premium</h2>
-          <div className="plan-price">R$ 390/ano</div>
+          <div className="plan-price">R$ 2497/ano</div>
           <p className="plan-description">Acesse startups com até R$ 250 mil em receita TTM.</p>
           <button className="cta-button">Começar com o Premium</button>
         </div>
@@ -67,7 +67,7 @@ const Buyers = () => {
         <div className="buyers-card">
           <h3>Para adquirentes em série</h3>
           <h2 className="plan-title">💎 Platinum</h2>
-          <div className="plan-price">R$ 780/ano</div>
+          <div className="plan-price">R$ 4997/ano</div>
           <p className="plan-description">Acesse startups verificadas de todos os tamanhos.</p>
           <button className="cta-button">Ir para o Platinum</button>
         </div>
